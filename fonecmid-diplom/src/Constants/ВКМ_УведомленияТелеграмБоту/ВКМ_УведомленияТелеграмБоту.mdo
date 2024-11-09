@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92d6490c-6c96-4553-a9c1-16d4cfa71e04">
+  <producedTypes>
+    <managerType typeId="49932919-2471-4371-9f4b-34c020d30e74" valueTypeId="1d17da29-3c73-4b5f-b6e1-412245824245"/>
+    <valueManagerType typeId="158d81ba-b53c-4b54-8fdd-c0334150186f" valueTypeId="484c5b3e-8fed-4013-af8e-7afaa5b24467"/>
+    <valueKeyType typeId="b8032981-c505-4865-8786-71ad07a01055" valueTypeId="3d29ce4b-b5f4-4cd5-9487-3f2588853836"/>
+  </producedTypes>
+  <name>ВКМ_УведомленияТелеграмБоту</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уведомления телеграм боту</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВКМ_УведомленияТелеграмБоту</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
