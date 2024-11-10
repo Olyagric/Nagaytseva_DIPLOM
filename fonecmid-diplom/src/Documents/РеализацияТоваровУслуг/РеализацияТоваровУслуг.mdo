@@ -415,4 +415,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <templates uuid="c77f339d-b97f-48cc-a976-6902730646e5">
+    <name>ПФ_MXL_Акт</name>
+  </templates>
 </mdclass:Document>

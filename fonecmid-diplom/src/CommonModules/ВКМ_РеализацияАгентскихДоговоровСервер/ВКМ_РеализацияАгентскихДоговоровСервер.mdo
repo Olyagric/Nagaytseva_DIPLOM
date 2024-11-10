@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7f3c5338-0c98-44e8-b927-19b80334fb5f">
+  <name>ВКМ_РеализацияАгентскихДоговоровСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реализация агентских договоров</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+</mdclass:CommonModule>
