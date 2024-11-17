@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CalculationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1fb124f-c57f-4c26-a926-cb026a275a65">
+  <producedTypes>
+    <selectionType typeId="3281d07a-a344-415c-b982-9d3b550ff4a3" valueTypeId="152617d1-561f-4304-8d33-92d6ba2943c3"/>
+    <listType typeId="2eff6f76-2cc3-429c-b0c9-803f1b855209" valueTypeId="74bf7a49-b57b-4be4-9069-378ac2652968"/>
+    <managerType typeId="6c1deabc-3a10-45b6-b510-bbaa5091b871" valueTypeId="6aa0df7f-d600-4366-9c0b-c437321c2b79"/>
+    <recordSetType typeId="1763a8f4-a16b-4a10-a308-c6ee0e139357" valueTypeId="4ba98bd9-365e-4872-b4e7-0aa446ec8e49"/>
+    <recordKeyType typeId="31cf84e6-d5fc-4e2f-905e-3492b0d1dbd4" valueTypeId="4591b95b-22e7-4526-b989-733b24295e99"/>
+    <recordType typeId="ad3826f2-6161-4300-acfb-da2b5191aa71" valueTypeId="feffe2af-0fe8-4e59-84fe-13e85936d60b"/>
+    <recalcsType typeId="cef65ef2-07b3-4b1a-b7a1-6e19141b125c" valueTypeId="3c62de78-6df5-454d-8943-802184279aff"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <periodicity>Month</periodicity>
+  <actionPeriod>true</actionPeriod>
+  <basePeriod>true</basePeriod>
+  <schedule>InformationRegister.ВКМ_ДанныеГрафика</schedule>
+  <scheduleValue>InformationRegister.ВКМ_ДанныеГрафика.Resource.РабочихДней</scheduleValue>
+  <scheduleDate>InformationRegister.ВКМ_ДанныеГрафика.Dimension.Дата</scheduleDate>
+  <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1ca826e2-28ed-4f50-880b-62c0fbfbafb4">
+    <name>РезультатОклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат оклада</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="87940d5a-359c-42d5-ad6c-2c0eaeddf38c">
+    <name>РезультатПроцента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат процента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <resources uuid="889ab2f3-4b67-4667-a264-d9727798c7e3">
+    <name>ОтработаноДней</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отработано дней</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <attributes uuid="1e31ae54-82f2-4f82-812c-a87d392512af">
+    <name>ПоказательОклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель оклада</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="56109d8b-e828-4c3e-a060-a036e5613308">
+    <name>ПоказательПроцента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель процента</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <dimensions uuid="b5b9092f-a74d-4d8b-9e7d-a28256147bea">
+    <name>Сотрудник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сотрудник</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:CalculationRegister>

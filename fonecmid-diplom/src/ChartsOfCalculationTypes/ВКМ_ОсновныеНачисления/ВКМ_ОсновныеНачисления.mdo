@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCalculationTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0512578a-c1f4-40da-b2db-2b50ecf28632">
+  <producedTypes>
+    <objectType typeId="e538cd2f-e67c-429e-b2a2-9f3e049f7fe5" valueTypeId="f43fb057-4b8b-49cd-91ab-c56424f2adb9"/>
+    <refType typeId="b070f016-93c8-4d8d-86c0-f229ad58b8ee" valueTypeId="150c0da0-e10e-45c3-acc4-705ff2547bda"/>
+    <selectionType typeId="0441fd02-34b7-4021-8698-c9ebf4fcf6aa" valueTypeId="1de52aa3-daab-4051-b19c-0c691121c19d"/>
+    <listType typeId="12c78b29-d62b-4950-bdd9-5417b12b4ef8" valueTypeId="1c3524d5-1cd8-4ef2-bdb7-7be2e1b6e34b"/>
+    <managerType typeId="9c3542fa-6d6d-45d3-a5e9-30882af25a74" valueTypeId="5c2a15df-c58d-4947-bebd-f90d7bd232ac"/>
+    <displacingCalculationTypesType typeId="f2f11faa-65dd-489d-b628-4ba15afb79f7" valueTypeId="4dca0a18-c9c4-4a81-90ff-fd7aa4d8135e"/>
+    <displacingCalculationTypesRowType typeId="fab050c5-e031-4ddb-a5d8-82c558c789a1" valueTypeId="e3b787dd-17ec-4370-b67c-57b92a029d88"/>
+    <baseCalculationTypesType typeId="4d01b495-b080-49cc-87f3-4f173bd9ae57" valueTypeId="ff2c0921-c0d9-4e71-ac21-ebe7377dedf5"/>
+    <baseCalculationTypesRowType typeId="83d642a1-5eb7-4b80-8a34-60215fdeba9f" valueTypeId="ac58babb-8b16-4ba5-a0e1-8ec29edfc85a"/>
+    <leadingCalculationTypesType typeId="0b7867b7-f88a-4c61-9cdb-a6f400327e70" valueTypeId="8e78269e-ade4-45b7-bcc9-0d17ac88a9d6"/>
+    <leadingCalculationTypesRowType typeId="4c36ff29-4a94-4111-a0a7-77c621269a73" valueTypeId="be87e69c-010a-488b-b62d-42e8ec1bb52c"/>
+  </producedTypes>
+  <name>ВКМ_ОсновныеНачисления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Code</inputByString>
+  <inputByString>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Основные начисления</value>
+  </objectPresentation>
+  <codeLength>5</codeLength>
+  <descriptionLength>40</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <dependenceOnCalculationTypes>OnActionPeriod</dependenceOnCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</baseCalculationTypes>
+  <baseCalculationTypes>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</baseCalculationTypes>
+  <actionPeriodUse>true</actionPeriodUse>
+  <predefined>
+    <items id="9b587704-cb42-4cb0-824a-2ca69fa412ef">
+      <name>Оклад</name>
+      <description>Оклад</description>
+      <code xsi:type="core:StringValue">
+        <value>1</value>
+      </code>
+      <displaced>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</displaced>
+    </items>
+    <items id="950152b7-399c-437b-b655-9bcf5cafcf63">
+      <name>ПремияПроцентом</name>
+      <description>Премия процентом</description>
+      <code xsi:type="core:StringValue">
+        <value>2</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+    </items>
+    <items id="1161efe6-d14a-4570-8bc0-a23cfa53a3c9">
+      <name>Отпуск</name>
+      <description>Отпуск</description>
+      <code xsi:type="core:StringValue">
+        <value>4</value>
+      </code>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПремияПроцентом</base>
+      <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
+      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияФиксированная</base>
+    </items>
+  </predefined>
+</mdclass:ChartOfCalculationTypes>
