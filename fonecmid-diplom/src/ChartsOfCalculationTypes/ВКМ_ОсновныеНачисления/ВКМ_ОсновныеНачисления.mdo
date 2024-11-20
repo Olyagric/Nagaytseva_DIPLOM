@@ -66,7 +66,6 @@
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Оклад</base>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.ПремияПроцентом</base>
       <base>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления.Отпуск</base>
-      <base>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления.ПремияФиксированная</base>
     </items>
   </predefined>
 </mdclass:ChartOfCalculationTypes>

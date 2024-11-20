@@ -24,28 +24,10 @@
   <chartOfCalculationTypes>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</chartOfCalculationTypes>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="1ca826e2-28ed-4f50-880b-62c0fbfbafb4">
-    <name>РезультатОклада</name>
+    <name>Результат</name>
     <synonym>
       <key>ru</key>
-      <value>Результат оклада</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>15</precision>
-        <scale>2</scale>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-  </resources>
-  <resources uuid="87940d5a-359c-42d5-ad6c-2c0eaeddf38c">
-    <name>РезультатПроцента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Результат процента</value>
+      <value>Результат</value>
     </synonym>
     <type>
       <types>Number</types>
