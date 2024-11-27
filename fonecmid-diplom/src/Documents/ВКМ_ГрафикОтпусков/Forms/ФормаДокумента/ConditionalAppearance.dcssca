@@ -5,6 +5,15 @@
 			<item>
 				<field>ОтпускаСотрудниковСотрудник</field>
 			</item>
+			<item>
+				<field>ОтпускаСотрудниковНомерСтроки</field>
+			</item>
+			<item>
+				<field>ОтпускаСотрудниковДатаНачала</field>
+			</item>
+			<item>
+				<field>ОтпускаСотрудниковДатаОкончания</field>
+			</item>
 		</selection>
 		<filter>
 			<item xsi:type="FilterItemComparison">
