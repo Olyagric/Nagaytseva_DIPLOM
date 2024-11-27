@@ -11,7 +11,7 @@
     <picture>CommonPicture.ИконкаНетология</picture>
   </picture>
   <content>Report.ВКМ_ВыработкаСпециалистов</content>
-  <content>Report.ВКМ_РасчётыСсотрудниками</content>
+  <content>Report.ВКМ_РасчетыСсотрудниками</content>
   <content>Report.ВКМ_АнализВыставленныхАктов</content>
   <content>Report.ВКМ_РасходЗапланированныхОтпусков</content>
 </mdclass:Subsystem>

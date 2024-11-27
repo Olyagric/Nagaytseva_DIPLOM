@@ -18,6 +18,10 @@
   <editType>InDialog</editType>
   <informationRegisterPeriodicity>Month</informationRegisterPeriodicity>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <recordPresentation>
+    <key>ru</key>
+    <value>Условия оплаты сотрудников</value>
+  </recordPresentation>
   <resources uuid="d1dec0f2-9a36-40e3-b00e-f5b05eff1495">
     <name>Оклад</name>
     <synonym>
