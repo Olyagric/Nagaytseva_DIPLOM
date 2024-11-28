@@ -180,17 +180,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.ТабличнаяЧасть3.Attribute.Значение1</name>
 		<right>
 			<name>View</name>
@@ -631,6 +620,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.ТабличнаяЧасть1</name>
 		<right>
 			<name>View</name>
@@ -785,17 +785,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Сертификат</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ЗаказПокупателя.TabularSection.Товары.Attribute.Цена</name>
 		<right>
 			<name>View</name>
@@ -940,17 +929,6 @@
 	</object>
 	<object>
 		<name>Catalog.КонтрагентыПрисоединенныеФайлы.Attribute.Размер</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ИспользованныеПароли</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -1731,17 +1709,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.StandardAttribute.PredefinedDataName</name>
 		<right>
 			<name>View</name>
@@ -1885,17 +1852,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.СведенияОПользователях.Resource.ДатаНачалаИспользованияПароля</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.Организации.TabularSection.ДополнительныеРеквизиты</name>
 		<right>
 			<name>View</name>
@@ -2006,6 +1962,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ЗаказПокупателяПрисоединенныеФайлы.Attribute.ДатаСоздания</name>
 		<right>
 			<name>View</name>
@@ -2040,17 +2007,6 @@
 	</object>
 	<object>
 		<name>Catalog.УчетныеЗаписиЭлектроннойПочты.Attribute.ТребуетсяВходНаСерверПередОтправкой</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ТелефонCДобавочнымНомером</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -2974,17 +2930,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ТипХраненияФайла</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.КэшПрограммныхИнтерфейсов.Dimension.Идентификатор</name>
 		<right>
 			<name>View</name>
@@ -3084,6 +3029,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ФайлХранилище</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ИдентификаторГруппы</name>
 		<right>
 			<name>View</name>
@@ -3150,7 +3106,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаЗаема</name>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.УстановившийПодпись</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3249,6 +3205,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Отпечаток</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВерсииФайлов.Attribute.ДатаМодификацииУниверсальная</name>
 		<right>
 			<name>View</name>
@@ -3326,17 +3293,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаМодификацииУниверсальная</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.КонфликтыОбработчиков.Attribute.ПроцедураПисатель</name>
 		<right>
 			<name>View</name>
@@ -3360,6 +3316,17 @@
 	</object>
 	<object>
 		<name>Catalog.ВерсииФайлов.Attribute.РодительскаяВерсия</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаСоздания</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -3546,17 +3513,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОтправленныеСерверныеОповещения.Attribute.ЗаписаноВСистемуВзаимодействия</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ПриоритетыВыполнения.Attribute.Процедура2</name>
 		<right>
 			<name>View</name>
@@ -3576,6 +3532,13 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -3756,17 +3719,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ.Dimension.Очередь</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.УдаляемыеОбъекты.Resource.ВремяБлокировки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4107,6 +4059,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Служебный</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ЗапускатьТолькоВГлавномУзле</name>
 		<right>
 			<name>View</name>
@@ -4338,7 +4301,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ЧитаемыеОбъекты.Attribute.ИндексКартинки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаМодификацииУниверсальная</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4515,17 +4500,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбработчикиОбновления.Resource.ДлительностьОбработки</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Размер</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -4745,28 +4719,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.УстановившийПодпись</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗамерыВремени.Dimension.ДатаЗаписиНачалоЧаса</name>
 		<right>
 			<name>View</name>
@@ -4801,6 +4753,17 @@
 	</object>
 	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.БлокируемыеОбъекты.Attribute.ОбъектМетаданных</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ИмяФайлаПодписи</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5284,17 +5247,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВнешниеПользователи.Attribute.СвойстваПользователяИБ</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НастройкиПравОбъектов.Dimension.Объект</name>
 		<right>
 			<name>View</name>
@@ -5372,29 +5324,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаСоздания</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ОрганизацииПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5691,6 +5621,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Автор</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
 		<right>
 			<name>View</name>
@@ -5746,6 +5687,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ТекстХранилище</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВнешниеПользователи.Attribute.ИдентификаторПользователяИБ</name>
 		<right>
 			<name>View</name>
@@ -5780,6 +5732,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЗапросыРазрешенийНаИспользованиеВнешнихРесурсов.Attribute.ДобавляемыеРазрешения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5933,7 +5896,7 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ПроцедураПроверки</name>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5944,7 +5907,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Отпечаток</name>
+		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ПроцедураПроверки</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -5989,17 +5952,6 @@
 	</object>
 	<object>
 		<name>Catalog.ЗначенияСвойствОбъектов.Attribute.ПолноеНаименование</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -6318,6 +6270,17 @@
 		</right>
 	</object>
 	<object>
+		<name>DataProcessor.ВКМ_ЗаполнениеГрафика</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.ТабличнаяЧасть2.Attribute.Значение3</name>
 		<right>
 			<name>View</name>
@@ -6571,105 +6534,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.PredefinedDataName</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Predefined</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Ref</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.DeletionMark</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.IsFolder</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Owner</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Parent</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Description</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Code</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.НаследованиеНастроекПравОбъектов.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -6715,17 +6579,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ТаблицыГруппДоступа.Resource.ПравоДобавлениеБезОграничения</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ХранитьВерсии</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -7440,6 +7293,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ДатаЗаема</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ГруппыДоступа.TabularSection.Пользователи.Attribute.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -7540,6 +7404,17 @@
 	</object>
 	<object>
 		<name>Document.ПоступлениеТоваровУслуг.TabularSection.Товары.Attribute.Количество</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ТипХраненияФайла</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -7738,17 +7613,6 @@
 	</object>
 	<object>
 		<name>Catalog.ПрофилиГруппДоступа.TabularSection.Роли</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Том</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8386,6 +8250,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Том</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты.TabularSection.КонтактнаяИнформация.Attribute.Значение</name>
 		<right>
 			<name>View</name>
@@ -8398,6 +8273,17 @@
 	</object>
 	<object>
 		<name>Catalog.ГруппыДоступа.Attribute.Ответственный</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -8482,6 +8368,109 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Document.ВКМ_ГрафикОтпусков</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Posting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveInsert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveClearDeletionMark</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractivePostingRegular</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveUndoPosting</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InteractiveChangeOfPosted</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -9068,6 +9057,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Сертификат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом.Resource.ДатаСинхронизацииНачало</name>
 		<right>
 			<name>View</name>
@@ -9178,6 +9178,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ПутьКФайлу</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаПользователей.Attribute.ДатаИзмененияЗаписиРегистра</name>
 		<right>
 			<name>View</name>
@@ -9190,17 +9201,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдаляемыеОбъекты.Dimension.Объект</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Сертификат</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -9717,17 +9717,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Описание</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.ЗамерыВремениТехнологические.Attribute.ДатаЗаписи</name>
 		<right>
 			<name>View</name>
@@ -9791,109 +9780,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Document.ВКМ_ОбслуживаниеКлиента</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Posting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractivePostingRegular</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveUndoPosting</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveChangeOfPosted</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -10942,17 +10828,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВидыКонтактнойИнформации.Attribute.ПроверятьПоФИАС</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.ИмяОсновногоСерверногоМодуля</name>
 		<right>
 			<name>View</name>
@@ -11118,17 +10993,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ПодписанЭП</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.МногострочноеПолеВвода</name>
 		<right>
 			<name>View</name>
@@ -11141,17 +11005,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПараметрыОграниченияДоступа.Resource.ХешСуммаПостоянныхПараметров</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Изменил</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -11470,6 +11323,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Представление</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ЗамерыВремени.Attribute.ДатаЗаписиЛокальная</name>
 		<right>
 			<name>View</name>
@@ -11614,17 +11478,6 @@
 	</object>
 	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ЗаполнятьОбязательно</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Зашифрован</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -12031,6 +11884,29 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ЗапланированныеОтпуска</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.НаборыГруппДоступа.Attribute.НеИспользуетсяС</name>
 		<right>
 			<name>View</name>
@@ -12185,6 +12061,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Комментарий</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Файлы.Attribute.Расширение</name>
 		<right>
 			<name>View</name>
@@ -12307,6 +12194,17 @@
 	</object>
 	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.TabularSection.ЗависимостиДополнительныхРеквизитов.Attribute.Реквизит</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Изменил</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -13088,6 +12986,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания.Resource.Результат</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Сертификат</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -13923,7 +13832,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14012,6 +13921,105 @@
 	</object>
 	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетовРасширений.TabularSection.Представления.Attribute.КодЯзыка</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.PredefinedDataName</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Predefined</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Ref</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.DeletionMark</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.IsFolder</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Owner</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Parent</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Description</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.StandardAttribute.Code</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -14319,17 +14327,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Представление</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ПредопределенныеВариантыОтчетов.Attribute.Отчет</name>
 		<right>
 			<name>View</name>
@@ -14539,17 +14536,6 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ДлительныеОперации.Attribute.ИдентификаторПроцесса</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ОрганизацииПрисоединенныеФайлы.Attribute.ФайлХранилище</name>
 		<right>
 			<name>View</name>
@@ -14738,6 +14724,17 @@
 	</object>
 	<object>
 		<name>Catalog.КлючевыеОперации.Attribute.Приоритет</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ПодписанЭП</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15463,17 +15460,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ИмяФайлаПодписи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.ОбработчикиОбновления.Attribute.Многопоточный</name>
 		<right>
 			<name>View</name>
@@ -15793,6 +15779,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ОрганизацииПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>View</name>
@@ -15859,6 +15852,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Расширение</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</name>
 		<right>
 			<name>View</name>
@@ -15893,17 +15897,6 @@
 	</object>
 	<object>
 		<name>Catalog.ОрганизацииПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Сертификат</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ТекстХранилище</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -15992,17 +15985,6 @@
 	</object>
 	<object>
 		<name>Catalog.КлючиДоступа.TabularSection.Шапка.Attribute.Значение8</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.Подпись</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16398,17 +16380,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ВладелецФайла</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.НаборыГруппДоступа.TabularSection.Группы</name>
 		<right>
 			<name>View</name>
@@ -16553,17 +16524,6 @@
 	</object>
 	<object>
 		<name>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.НомерТелефона</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Служебный</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -16729,17 +16689,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.НаследованиеНастроекПравОбъектов.Dimension.Объект</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Автор</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17223,17 +17172,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.КомуВыданСертификат</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.ТомаХраненияФайлов.Attribute.ПорядокЗаполнения</name>
 		<right>
 			<name>View</name>
@@ -17279,6 +17217,17 @@
 	</object>
 	<object>
 		<name>Catalog.ВерсииФайлов.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПодписи</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Редактирует</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -17429,6 +17378,33 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.УправлениеITФирмой</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -17726,97 +17702,6 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ПоступлениеТоваровУслугПрисоединенныеФайлы</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Insert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Delete</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveInsert</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMark</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeleteMarked</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveSetDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveClearDeletionMarkPredefinedData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ReadDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryOfMissingData</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
-			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -18139,6 +18024,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Описание</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ОбновлениеКлючейДоступаТекущиеЗадания.Resource.Параметры</name>
 		<right>
 			<name>View</name>
@@ -18151,6 +18047,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдалитьЗамерыВремени3.Resource.ВремяВыполнения</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18546,6 +18453,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Зашифрован</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Document.РеализацияТоваровУслуг.Attribute.СуммаДокумента</name>
 		<right>
 			<name>View</name>
@@ -18679,17 +18597,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.КлючиДоступаНаборовГруппДоступа.Resource.ПравоДобавление</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Расширение</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -18909,29 +18816,66 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи.Attribute.СвойстваПользователяИБ</name>
+		<name>InformationRegister.ВКМ_ДанныеГрафика</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
-			<value>false</value>
+			<value>true</value>
 		</right>
 		<right>
 			<name>Edit</name>
-			<value>false</value>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>InformationRegister.ТаблицыГруппДоступа.Dimension.ГруппаДоступа</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ФайлХранилище</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -19382,6 +19326,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Размер</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВерсииФайлов.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ПодписьВерна</name>
 		<right>
 			<name>View</name>
@@ -19591,17 +19546,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.Редактирует</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Document.ОплатаОтПокупателя.Attribute.Контрагент</name>
 		<right>
 			<name>View</name>
@@ -19701,6 +19645,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ХранитьВерсии</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КлючиДоступаПользователей.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -19745,17 +19700,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПроверкиПодписи</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы.Attribute.ПодписанЭП</name>
 		<right>
 			<name>View</name>
@@ -19779,17 +19723,6 @@
 	</object>
 	<object>
 		<name>InformationRegister.УдаляемыеОбъекты.Dimension.ИдентификаторСеанса</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -21692,6 +21625,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ВладелецФайла</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Контрагенты.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</name>
 		<right>
 			<name>View</name>
@@ -22000,6 +21944,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КлючиДоступаНаборовГруппДоступа.Dimension.КлючДоступа</name>
 		<right>
 			<name>View</name>
@@ -22264,17 +22215,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ПутьКФайлу</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
 		<name>InformationRegister.РазрешенияНаИспользованиеВнешнихРесурсов.Dimension.КлючРазрешения</name>
 		<right>
 			<name>View</name>
@@ -22287,6 +22227,17 @@
 	</object>
 	<object>
 		<name>Catalog.Файлы.Attribute.УдалитьТекущаяВерсияДатаСоздания</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ДатаПроверкиПодписи</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -22539,6 +22490,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.Attribute.ИндексКартинки</name>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>DataProcessor.ОписаниеОбработчиковОбновления.TabularSection.КонфликтыОбработчиков.Attribute.ПроцедураЧитательИлиПисатель2</name>
 		<right>
 			<name>View</name>
@@ -22562,17 +22524,6 @@
 	</object>
 	<object>
 		<name>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Город</name>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>false</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы.TabularSection.УдалитьСертификатыШифрования.Attribute.Отпечаток</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
