@@ -3789,47 +3789,7 @@
 	<object>
 		<name>Constant.ВКМ_НоменклатураАбонентскаяПлата</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -5444,7 +5404,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -13149,47 +13109,7 @@
 	<object>
 		<name>Constant.ВКМ_ТокенУправленияТелеграмБотом</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -14585,47 +14505,7 @@
 	<object>
 		<name>Constant.ВКМ_НоменклатураРаботыСпециалиста</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -23153,7 +23033,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты</name>
 		<right>
 			<name>View</name>
 			<value>false</value>
@@ -25035,47 +24915,7 @@
 	<object>
 		<name>Constant.ВКМ_ИдентификаторГруппыДляОповещения</name>
 		<right>
-			<name>Read</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>false</value>
-		</right>
-		<right>
 			<name>Edit</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ReadDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistorySettings</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>UpdateDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>ViewDataHistory</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>EditDataHistoryVersionComment</name>
-			<value>false</value>
-		</right>
-		<right>
-			<name>SwitchToDataHistoryVersion</name>
 			<value>false</value>
 		</right>
 	</object>
@@ -32873,7 +32713,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
 		<right>
 			<name>View</name>
 			<value>false</value>

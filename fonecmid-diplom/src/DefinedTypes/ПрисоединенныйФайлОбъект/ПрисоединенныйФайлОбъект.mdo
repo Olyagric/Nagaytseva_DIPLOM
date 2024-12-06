@@ -15,8 +15,8 @@
     <types>CatalogObject.ОрганизацииПрисоединенныеФайлы</types>
     <types>CatalogObject.ЗаказПокупателяПрисоединенныеФайлы</types>
     <types>CatalogObject.КонтрагентыПрисоединенныеФайлы</types>
+    <types>CatalogObject.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</types>
     <types>CatalogObject.Файлы</types>
     <types>CatalogObject.РеализацияТоваровУслугПрисоединенныеФайлы</types>
-    <types>CatalogObject.ВКМ_ОбслуживаниеКлиентаПрисоединенныеФайлы</types>
   </type>
 </mdclass:DefinedType>

@@ -21,7 +21,6 @@
   <content>Document.ВКМ_ОбслуживаниеКлиента</content>
   <content>DataProcessor.ВКМ_МассовоеСозданиеАктов</content>
   <content>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</content>
-  <content>CommonModule.ВКМ_УправлениеДоступом</content>
   <content>Role.ВКМ_ДобавлениеИзменениеОбработкиВКМ_МассовоеСозданиеАктов</content>
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>

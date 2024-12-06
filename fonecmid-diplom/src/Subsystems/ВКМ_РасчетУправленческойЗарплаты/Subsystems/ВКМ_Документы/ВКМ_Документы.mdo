@@ -10,5 +10,5 @@
   <content>Document.ВКМ_НачисленияЗарплаты</content>
   <content>Document.ВКМ_НачислениеФиксированнойПремии</content>
   <content>Document.ВКМ_ВыплатаЗарплаты</content>
-  <parentSubsystem>Subsystem.ВКМ_РасчётУправленческойЗарплаты</parentSubsystem>
+  <parentSubsystem>Subsystem.ВКМ_РасчетУправленческойЗарплаты</parentSubsystem>
 </mdclass:Subsystem>

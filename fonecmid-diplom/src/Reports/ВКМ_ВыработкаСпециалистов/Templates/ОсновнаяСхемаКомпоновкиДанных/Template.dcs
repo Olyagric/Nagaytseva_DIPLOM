@@ -7,77 +7,49 @@
 	<dataSet xsi:type="DataSetQuery">
 		<name>НаборДанных1</name>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент</dataPath>
-			<field>Клиент</field>
+			<dataPath>Сотрудник</dataPath>
+			<field>Сотрудник</field>
 			<role>
 				<dcscom:dimension>true</dcscom:dimension>
 			</role>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>Договор</dataPath>
-			<field>Договор</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
+			<dataPath>ЧасовОтработано</dataPath>
+			<field>ЧасовОтработано</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Часов отработано</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>НоменклатураУслуги</dataPath>
-			<field>НоменклатураУслуги</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаОборот</dataPath>
-			<field>СуммаОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Договора</dataPath>
-			<field>Договора</field>
-			<role>
-				<dcscom:dimension>true</dcscom:dimension>
-			</role>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>Клиент1</dataPath>
-			<field>Клиент1</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>КоличествоЧасовОборот</dataPath>
-			<field>КоличествоЧасовОборот</field>
-		</field>
-		<field xsi:type="DataSetFieldField">
-			<dataPath>СуммаКОплатеОборот</dataPath>
-			<field>СуммаКОплатеОборот</field>
+			<dataPath>СуммаНачислена</dataPath>
+			<field>СуммаНачислена</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сумма начислена</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<dataSource>ИсточникДанных1</dataSource>
 		<query>ВЫБРАТЬ
-	ВКМ_ВыставленныеАктыОбороты.Клиент,
-	ВКМ_ВыставленныеАктыОбороты.Договор,
-	ВКМ_ВыставленныеАктыОбороты.НоменклатураУслуги,
-	ВКМ_ВыставленныеАктыОбороты.СуммаОборот,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.Договора,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.КоличествоЧасовОборот,
-	ВКМ_ВыполненныеКлиентуРаботыОбороты.СуммаКОплатеОборот
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.Сотрудник КАК Сотрудник,
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.ЧасовКОплатеОборот КАК ЧасовОтработано,
+	ВКМ_ВыполненныеСотрудникомРаботыОбороты.СуммаКОплатеОборот КАК СуммаНачислена
 ИЗ
-	РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(&amp;ДатаНачала, &amp;ДатаОкончания, Месяц,) КАК
-		ВКМ_ВыполненныеКлиентуРаботыОбороты
-		ЛЕВОЕ СОЕДИНЕНИЕ РегистрНакопления.ВКМ_ВыставленныеАкты.Обороты(&amp;ДатаНачала, &amp;ДатаОкончания, Месяц, Клиент В
-			(ВЫБРАТЬ
-				ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент
-			ИЗ
-				РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(&amp;ДатаНачала, &amp;ДатаОкончания, Месяц,) КАК
-					ВКМ_ВыполненныеКлиентуРаботыОбороты)
-		И Договор В
-			(ВЫБРАТЬ
-				ВКМ_ВыполненныеКлиентуРаботыОбороты.Договора
-			ИЗ
-				РегистрНакопления.ВКМ_ВыполненныеКлиентуРаботы.Обороты(&amp;ДатаНачала, &amp;ДатаОкончания, Месяц,) КАК
-					ВКМ_ВыполненныеКлиентуРаботыОбороты)) КАК ВКМ_ВыставленныеАктыОбороты
-		ПО ВКМ_ВыполненныеКлиентуРаботыОбороты.Клиент = ВКМ_ВыставленныеАктыОбороты.Клиент
-		И ВКМ_ВыполненныеКлиентуРаботыОбороты.Договора = ВКМ_ВыставленныеАктыОбороты.Договор</query>
+	РегистрНакопления.ВКМ_ВыполненныеСотрудникомРаботы.Обороты(, , , ) КАК ВКМ_ВыполненныеСотрудникомРаботыОбороты
+</query>
 	</dataSet>
+	<totalField>
+		<dataPath>СуммаНачислена</dataPath>
+		<expression>Сумма(СуммаНачислена)</expression>
+	</totalField>
+	<totalField>
+		<dataPath>ЧасовОтработано</dataPath>
+		<expression>Сумма(ЧасовОтработано)</expression>
+	</totalField>
 	<parameter>
 		<name>НачалоПериода</name>
 		<title xsi:type="v8:LocalStringType">
@@ -92,6 +64,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 		<availableAsField>false</availableAsField>
@@ -110,6 +83,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
@@ -128,38 +102,6 @@
 		<value xsi:nil="true"/>
 		<useRestriction>false</useRestriction>
 	</parameter>
-	<parameter>
-		<name>ДатаОкончания</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата окончания</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<useRestriction>true</useRestriction>
-	</parameter>
-	<parameter>
-		<name>ДатаНачала</name>
-		<title xsi:type="v8:LocalStringType">
-			<v8:item>
-				<v8:lang>ru</v8:lang>
-				<v8:content>Дата начала</v8:content>
-			</v8:item>
-		</title>
-		<valueType>
-			<v8:Type>xs:dateTime</v8:Type>
-			<v8:DateQualifiers>
-				<v8:DateFractions>DateTime</v8:DateFractions>
-			</v8:DateQualifiers>
-		</valueType>
-		<useRestriction>true</useRestriction>
-	</parameter>
 	<settingsVariant>
 		<dcsset:name>Выработка специалистов</dcsset:name>
 		<dcsset:presentation xsi:type="v8:LocalStringType">
@@ -174,18 +116,27 @@
 					<dcsset:field>Сотрудник</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Сумма</dcsset:field>
+					<dcsset:field>ЧасовОтработано</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>Часы</dcsset:field>
+					<dcsset:field>СуммаНачислена</dcsset:field>
 				</dcsset:item>
 			</dcsset:selection>
+			<dcsset:filter>
+				<dcsset:item xsi:type="dcsset:FilterItemComparison">
+					<dcsset:left xsi:type="dcscor:Field">Сотрудник</dcsset:left>
+					<dcsset:comparisonType>Equal</dcsset:comparisonType>
+					<dcsset:userSettingID>78666ec1-07ba-4811-af36-604a243aa7a7</dcsset:userSettingID>
+				</dcsset:item>
+			</dcsset:filter>
 			<dcsset:dataParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>НачалоПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>КонецПериода</dcscor:parameter>
+					<dcscor:value xsi:nil="true"/>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>Период</dcscor:parameter>
@@ -193,10 +144,32 @@
 					<dcsset:userSettingID>19e00c10-f046-40fa-b863-53a00ba5d61d</dcsset:userSettingID>
 				</dcscor:item>
 			</dcsset:dataParameters>
+			<dcsset:conditionalAppearance>
+				<dcsset:item>
+					<dcsset:selection/>
+					<dcsset:filter/>
+					<dcsset:appearance>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ГоризонтальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:HorizontalAlign">Center</dcscor:value>
+						</dcscor:item>
+						<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+							<dcscor:parameter>ВертикальноеПоложение</dcscor:parameter>
+							<dcscor:value xsi:type="v8ui:VerticalAlign">Center</dcscor:value>
+						</dcscor:item>
+					</dcsset:appearance>
+					<dcsset:useInGroup>DontUse</dcsset:useInGroup>
+					<dcsset:useInHierarchicalGroup>DontUse</dcsset:useInHierarchicalGroup>
+				</dcsset:item>
+			</dcsset:conditionalAppearance>
 			<dcsset:outputParameters>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>МакетОформления</dcscor:parameter>
 					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>РасположениеИтогов</dcscor:parameter>
+					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
@@ -207,24 +180,16 @@
 					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
 				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
+				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+					<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+				</dcscor:item>
 			</dcsset:outputParameters>
 			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:order>
-					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
-				</dcsset:order>
-				<dcsset:selection>
-					<dcsset:item xsi:type="dcsset:SelectedItemAuto"/>
-				</dcsset:selection>
-			</dcsset:item>
-			<dcsset:item xsi:type="dcsset:StructureItemGroup">
-				<dcsset:use>false</dcsset:use>
-				<dcsset:groupItems>
-					<dcsset:item xsi:type="dcsset:GroupItemField">
-						<dcsset:field>Сотрудник</dcsset:field>
-						<dcsset:groupType>Items</dcsset:groupType>
-						<dcsset:periodAdditionType>None</dcsset:periodAdditionType>
-					</dcsset:item>
-				</dcsset:groupItems>
 				<dcsset:order>
 					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
 				</dcsset:order>

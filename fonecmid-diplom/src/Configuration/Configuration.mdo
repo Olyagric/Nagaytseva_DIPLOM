@@ -20,7 +20,7 @@
   <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <vendor>ООО Нетология</vendor>
-  <version>1.0.1.3</version>
+  <version>1.0.1.2</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
   <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
@@ -56,7 +56,7 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.ВКМ_ДобавленныеОбъекты</subsystems>
   <subsystems>Subsystem.ВКМ_ОбслуживаниеКлиентов</subsystems>
-  <subsystems>Subsystem.ВКМ_РасчётУправленческойЗарплаты</subsystems>
+  <subsystems>Subsystem.ВКМ_РасчетУправленческойЗарплаты</subsystems>
   <subsystems>Subsystem.ВКМ_Отчеты</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ВладелецФайловШрифт</styleItems>
@@ -897,7 +897,6 @@
   <commonModules>CommonModule.ВКМ_РеализацияАгентскихДоговоровСервер</commonModules>
   <commonModules>CommonModule.ВКМ_РеализацияАгентскихДоговоровВызовСервера</commonModules>
   <commonModules>CommonModule.ВКМ_Телеграм</commonModules>
-  <commonModules>CommonModule.ВКМ_УправлениеДоступом</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>

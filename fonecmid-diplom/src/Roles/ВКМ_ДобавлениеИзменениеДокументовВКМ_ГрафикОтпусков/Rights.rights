@@ -3535,7 +3535,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -15779,7 +15779,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -21944,7 +21944,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

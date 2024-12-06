@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
     <name>НомерДата</name>
     <id>42</id>
@@ -402,12 +402,12 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:InputFieldExtInfo">
         <handlers>
-          <event>TextEditEnd</event>
-          <name>ОтпускаСотрудниковДатаОкончанияОкончаниеВводаТекста</name>
-        </handlers>
-        <handlers>
           <event>EditTextChange</event>
           <name>ОтпускаСотрудниковДатаОкончанияИзменениеТекстаРедактирования</name>
+        </handlers>
+        <handlers>
+          <event>TextEditEnd</event>
+          <name>ОтпускаСотрудниковДатаОкончанияОкончаниеВводаТекста</name>
         </handlers>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -475,12 +475,12 @@
       <name>ОтпускаСотрудниковПриОкончанииРедактирования</name>
     </handlers>
     <handlers>
-      <event>ChoiceProcessing</event>
-      <name>ОтпускаСотрудниковОбработкаВыбора</name>
-    </handlers>
-    <handlers>
       <event>BeforeEditEnd</event>
       <name>ОтпускаСотрудниковПередОкончаниемРедактирования</name>
+    </handlers>
+    <handlers>
+      <event>ChoiceProcessing</event>
+      <name>ОтпускаСотрудниковОбработкаВыбора</name>
     </handlers>
     <handlers>
       <event>NewWriteProcessing</event>
@@ -648,6 +648,7 @@
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
     <fileDragMode>AsFileRef</fileDragMode>
+    <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -691,12 +692,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>

@@ -433,6 +433,17 @@
 		</right>
 	</object>
 	<object>
+		<name>ChartOfCalculationTypes.ВКМ_ОсновныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.РеализацияТоваровУслугПрисоединенныеФайлы.Attribute.СтатусИзвлеченияТекста</name>
 		<right>
 			<name>View</name>
@@ -1907,6 +1918,29 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ВыполненныеСотрудникомРаботы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ДоговорыКонтрагентовПрисоединенныеФайлы.TabularSection.УдалитьЭлектронныеПодписи.Attribute.ИмяФайлаПодписи</name>
 		<right>
 			<name>View</name>
@@ -2014,6 +2048,17 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_Удержания</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -2380,6 +2425,49 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ВКМ_НоменклатураАбонентскаяПлата</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ОбработчикиОбновленияОбщихДанных.Dimension.ИмяОбработчика</name>
 		<right>
 			<name>View</name>
@@ -2688,6 +2776,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.Resource.Результат</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Report.ВКМ_ВыработкаСпециалистов</name>
 		<right>
 			<name>Use</name>
@@ -2875,6 +2970,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.Attribute.ПоказательОклада</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.Файлы.Attribute.УдалитьТекущаяВерсияДатаМодификацииФайла</name>
 		<right>
 			<name>View</name>
@@ -3045,6 +3147,13 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.Resource.Результат</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -5427,6 +5536,94 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.RegistrationPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.ReversingEntry</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.EndOfBasePeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.BegOfBasePeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.EndOfActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.BegOfActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.ActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.CalculationType</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>ChartOfCharacteristicTypes.ДополнительныеРеквизитыИСведения.Attribute.ФорматСвойства</name>
 		<right>
 			<name>View</name>
@@ -7099,6 +7296,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.Attribute.ПоказательПроцента</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ВариантыОтчетов.Attribute.НаименованияПолей</name>
 		<right>
 			<name>View</name>
@@ -7935,6 +8139,29 @@
 		</right>
 	</object>
 	<object>
+		<name>AccumulationRegister.ВКМ_ВыполненныеКлиентуРаботы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ГруппыДоступа.Attribute.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -8743,6 +8970,13 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ДополнительныеНачисления.Dimension.Сотрудник</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -11532,6 +11766,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.Resource.ОтработаноДней</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.РежимыПодключенияВнешнихМодулей.Attribute.ПредставлениеПрограммногоМодуля</name>
 		<right>
 			<name>View</name>
@@ -14080,6 +14321,94 @@
 		</right>
 	</object>
 	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.RegistrationPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.ReversingEntry</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.EndOfBasePeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.BegOfBasePeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.EndOfActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.BegOfActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.ActionPeriod</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.CalculationType</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ЗамерыВремениТехнологические.Attribute.Пользователь</name>
 		<right>
 			<name>View</name>
@@ -15878,6 +16207,13 @@
 			<name>View</name>
 			<value>false</value>
 		</right>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>CalculationRegister.ВКМ_ОсновныеНачисления.Dimension.Сотрудник</name>
 		<right>
 			<name>Edit</name>
 			<value>false</value>
@@ -18628,6 +18964,17 @@
 		</right>
 	</object>
 	<object>
+		<name>ChartOfCalculationTypes.ВКМ_Удержания</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.КлючиДоступаКОбъектам.StandardAttribute.Active</name>
 		<right>
 			<name>View</name>
@@ -19387,6 +19734,17 @@
 		</right>
 	</object>
 	<object>
+		<name>ChartOfCalculationTypes.ВКМ_ДополнительныеНачисления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.ПрофилиГруппДоступа.TabularSection.Назначение</name>
 		<right>
 			<name>View</name>
@@ -19714,6 +20072,29 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>AccumulationRegister.ВКМ_ВзаиморасчетыССотрудниками</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>

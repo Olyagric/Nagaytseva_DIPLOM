@@ -9,5 +9,5 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Document.ВКМ_ГрафикОтпусков</content>
   <content>DataProcessor.ВКМ_ЗаполнениеГрафика</content>
-  <parentSubsystem>Subsystem.ВКМ_РасчётУправленческойЗарплаты</parentSubsystem>
+  <parentSubsystem>Subsystem.ВКМ_РасчетУправленческойЗарплаты</parentSubsystem>
 </mdclass:Subsystem>

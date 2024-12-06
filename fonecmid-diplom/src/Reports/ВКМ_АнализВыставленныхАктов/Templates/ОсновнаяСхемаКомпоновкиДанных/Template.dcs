@@ -91,6 +91,8 @@
 		</valueType>
 		<value xsi:type="v8:StandardPeriod">
 			<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+			<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+			<v8:endDate>0001-01-01T00:00:00</v8:endDate>
 		</value>
 		<useRestriction>false</useRestriction>
 	</parameter>
@@ -108,6 +110,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаНачала</expression>
 		<availableAsField>false</availableAsField>
@@ -126,6 +129,7 @@
 				<v8:DateFractions>DateTime</v8:DateFractions>
 			</v8:DateQualifiers>
 		</valueType>
+		<value xsi:nil="true"/>
 		<useRestriction>true</useRestriction>
 		<expression>&amp;Период.ДатаОкончания</expression>
 		<availableAsField>false</availableAsField>
@@ -201,17 +205,12 @@
 					<dcscor:value xsi:type="xs:string">Античный</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:use>false</dcscor:use>
-					<dcscor:parameter>ВертикальноеРасположениеОбщихИтогов</dcscor:parameter>
-					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Auto</dcscor:value>
+					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
+					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ГоризонтальноеРасположениеОбщихИтогов</dcscor:parameter>
 					<dcscor:value xsi:type="dcscor:DataCompositionTotalPlacement">Begin</dcscor:value>
-				</dcscor:item>
-				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
-					<dcscor:parameter>РасположениеПолейГруппировки</dcscor:parameter>
-					<dcscor:value xsi:type="dcsset:DataCompositionGroupFieldsPlacement">SeparatelyAndInTotalsOnly</dcscor:value>
 				</dcscor:item>
 				<dcscor:item xsi:type="dcsset:SettingsParameterValue">
 					<dcscor:parameter>ВыводитьПараметрыДанных</dcscor:parameter>

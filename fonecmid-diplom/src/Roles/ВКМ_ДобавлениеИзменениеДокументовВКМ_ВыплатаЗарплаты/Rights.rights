@@ -3767,7 +3767,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Документы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -16045,7 +16045,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -19219,7 +19219,7 @@
 			<value>true</value>
 		</right>
 		<right>
-			<name>InteractiveDelete</name>
+			<name>InteractiveSetDeletionMark</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -19228,10 +19228,6 @@
 		</right>
 		<right>
 			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InteractiveDeletePredefinedData</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -19328,6 +19324,65 @@
 		<right>
 			<name>Edit</name>
 			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ВКМ_ДанныеГрафика</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>TotalsControl</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ReadDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryOfMissingData</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistorySettings</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>UpdateDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>ViewDataHistory</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>EditDataHistoryVersionComment</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>SwitchToDataHistoryVersion</name>
+			<value>true</value>
 		</right>
 	</object>
 	<object>
@@ -22510,7 +22565,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Subsystem.ВКМ_РасчётУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
+		<name>Subsystem.ВКМ_РасчетУправленческойЗарплаты.Subsystem.ВКМ_Графики</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
